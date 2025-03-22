@@ -1,18 +1,13 @@
 # AuthRecuperacion-Ecommerce
 # AuthRecuperacion-Ecommerce
 
-API RESTful para un sistema e-commerce con autenticación segura, recuperación de contraseña y autorización basada en roles. Este proyecto representa mi primera incursión en el desarrollo backend, complementando mi experiencia en electrónica, ciencia de datos y UX.
+API RESTful para un sistema e-commerce con autenticación segura, recuperación de contraseña y autorización basada en roles. Este proyecto representa mi primera incursión en el desarrollo backend :), como estudiante de ing mecatrónica estoy más acostumbrada en proyectos de electrónica y ciencia de datos, también me considero aficionada en UX, asi que esta experiencia en el bancked fue salir de mi zona de confort.
 
 ## Tabla de Contenidos
 - [Acerca del Proyecto](#acerca-del-proyecto)
-- [Estructura del Proyecto](#estructura-del-proyecto)
 - [Características](#características)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribuciones](#contribuciones)
-- [Reconocimientos](#reconocimientos)
-- [Licencia](#licencia)
 
 ## Acerca del Proyecto
 Este proyecto es una API RESTful para un sistema e-commerce que implementa:
@@ -23,4 +18,26 @@ Este proyecto es una API RESTful para un sistema e-commerce que implementa:
 - **Manejo de Errores y Logging:** Uso de middlewares para control global de errores, manejo de rutas no definidas y registro de solicitudes con Morgan.
 - **Datos Semilla:** Configuración inicial con 5 usuarios y 50 productos.
 
-## Estructura del Proyecto
+## Features
+- **User Authentication:** Secure registration and login with bcrypt and JWT.
+- **Password Recovery:** Generate reset tokens with a 1-hour expiration and email integration.
+- **Role-based Authorization:** Middleware ensuring only administrators can manage products and only users can modify their carts.
+- **Data Persistence:** MongoDB integration using DAO, DTO, and repository patterns.
+- **Error Handling:** Global error handlers and custom path handlers for undefined routes.
+- **Logging:** Request logging with Morgan.
+- **Seed Data:** Predefined five users and fifty products to kickstart the application.
+
+## Technologies Used
+- **Node.js & Express:** For building the API.
+- **MongoDB:** For data storage.
+- **JWT & bcrypt:** For secure token-based authentication and password hashing.
+- **Nodemailer:** For handling password recovery emails.
+- **Morgan:** For HTTP request logging.
+- **Design Patterns:** Implementing DAO, DTO, and Repository patterns for a clean and maintainable codebase.
+
+## Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/<Aleephic>/AuthRecuperacion-Ecommerce.git
+   cd AuthRecuperacion-Ecommerce
+
