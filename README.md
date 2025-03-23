@@ -1,7 +1,7 @@
 # AuthRecuperacion-Ecommerce
 # AuthRecuperacion-Ecommerce
 
-API RESTful para un sistema e-commerce con autenticación segura, recuperación de contraseña y autorización basada en roles. Este proyecto representa mi primera incursión en el desarrollo backend :), como estudiante de ing mecatrónica estoy más acostumbrada a coderar en proyectos de electrónica, POO y ciencia de datos, también me considero aficionada en UX, asi que esta experiencia en el bancked fue salir de mi zona de confort. Me encantaría recibir su feedback 😁!
+API RESTful para un sistema e-commerce con autenticación segura, recuperación de contraseña y autorización basada en roles. Este proyecto representa mi primera incursión en el desarrollo backend :), como estudiante de ing mecatrónica estoy más acostumbrada a codear en proyectos de electrónica, POO y ciencia de datos, también me considero aficionada en UX, asi que esta experiencia en el bancked fue salir de mi zona de confort. Me encantaría recibir su feedback 😁!
 
 ## Tabla de Contenidos
 - [Acerca del Proyecto](#acerca-del-proyecto)
