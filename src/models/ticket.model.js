@@ -1,7 +1,4 @@
-/*
- * Ticket Model
- * Handles purchase tickets for completed orders
- */
+// Ticket Model
 const mongoose = require('mongoose');
 
 // Define the ticket 
