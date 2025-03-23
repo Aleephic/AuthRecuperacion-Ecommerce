@@ -4,7 +4,6 @@ const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const { log } = require('./utilities/logger');
 
-/* Hash a password*/
 async function hashPassword(password) {
   try {
     const saltRounds = 10;
@@ -16,12 +15,6 @@ async function hashPassword(password) {
   }
 }
 
-/**
- * Compare a password with a hash
- * @param {string} password - Plain text password
- * @param {string} hash - Hashed password
- * @returns {Promise<boolean>} - True if match, false otherwise
- */
 async function comparePassword(password, hash) {
   try {
     return await bcrypt.compare(password, hash);
@@ -31,11 +24,6 @@ async function comparePassword(password, hash) {
   }
 }
 
-/**
- * Generate a JWT token
- * @param {object} payload - Data to encode in the token
- * @returns {string} - JWT token
- */
 function generateToken(payload) {
   try {
     const secret = process.env.JWT_SECRET || 'default_jwt_secret';
@@ -46,12 +34,7 @@ function generateToken(payload) {
     throw new Error('Token generation failed');
   }
 }
-
-/**
- * Verify a JWT token
- * @param {string} token - JWT token to verify
- * @returns {object|null} - Decoded token or null if invalid
- */
+//Verify
 function verifyToken(token) {
   try {
     const secret = process.env.JWT_SECRET || 'default_jwt_secret';
