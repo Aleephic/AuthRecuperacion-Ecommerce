@@ -1,7 +1,7 @@
 # AuthRecuperacion-Ecommerce
 # AuthRecuperacion-Ecommerce
 
-API RESTful para un sistema e-commerce con autenticación segura, recuperación de contraseña y autorización basada en roles. Este proyecto representa mi primera incursión en el desarrollo backend :), como estudiante de ing mecatrónica estoy más acostumbrada en proyectos de electrónica y ciencia de datos, también me considero aficionada en UX, asi que esta experiencia en el bancked fue salir de mi zona de confort.
+API RESTful para un sistema e-commerce con autenticación segura, recuperación de contraseña y autorización basada en roles. Este proyecto representa mi primera incursión en el desarrollo backend :), como estudiante de ing mecatrónica estoy más acostumbrada a coderar en proyectos de electrónica, POO y ciencia de datos, también me considero aficionada en UX, asi que esta experiencia en el bancked fue salir de mi zona de confort. Me encantaría recibir su feedback 😁!
 
 ## Tabla de Contenidos
 - [Acerca del Proyecto](#acerca-del-proyecto)
@@ -16,7 +16,7 @@ Este proyecto es una API RESTful para un sistema e-commerce que implementa:
 - **Autorización por Roles:** Solo administradores pueden gestionar productos (crear, actualizar y eliminar) y solo usuarios pueden agregar productos a sus carritos.
 - **Gestión de Datos:** Persistencia en MongoDB utilizando patrones de diseño como DAO, DTO y Repositorio.
 - **Manejo de Errores y Logging:** Uso de middlewares para control global de errores, manejo de rutas no definidas y registro de solicitudes con Morgan.
-- **Datos Semilla:** Configuración inicial con 5 usuarios y 50 productos.
+- **Datos Semilla:** Configuración inicial con 50 usuarios y 50 productos.
 
 ## Features
 - **User Authentication:** Secure registration and login with bcrypt and JWT.
