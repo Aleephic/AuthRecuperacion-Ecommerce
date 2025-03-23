@@ -1,5 +1,4 @@
 // Authentication Controller
-
 const { validationResult } = require('express-validator');
 const userRepository = require('../repositories/userRepository');
 const { ApiError } = require('../middlewares/errorHandler');
