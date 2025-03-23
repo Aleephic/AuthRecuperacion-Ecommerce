@@ -1,6 +1,4 @@
-/*
- * MongoDB Database connection utility
- */
+//MongoDB Database connection
 const mongoose = require('mongoose');
 const { log } = require('./logger');
 
