@@ -134,4 +134,6 @@ const Feedback = mongoose.model('Feedback', feedbackSchema);
 
 module.exports = {
   Feedback,
-  FEEDBACK
+  FEEDBACK_STATUS,
+  FEEDBACK_TYPES
+};
