@@ -3,7 +3,7 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
-const { log } = require('./utilities/logger');
+const { log } = require('./utils/logger');
 
 // Hash a password
 async function hashPassword(password) {
