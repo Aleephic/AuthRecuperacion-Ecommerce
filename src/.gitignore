@@ -1,0 +1,19 @@
+# Ignorar la carpeta de dependencias
+node_modules/
+
+# Ignorar variables de entorno
+.env
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de build o distribuciones (si los hubiera)
+dist/
+build/
+
+# Ignorar archivos temporales del editor
+.vscode/
+.idea/
+
+# Otros archivos temporales
+coverage/
